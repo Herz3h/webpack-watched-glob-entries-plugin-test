@@ -1,0 +1,52 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^6.0.0",
+    "path": "^0.12.7",
+    "resolve-url-loader": "^3.1.1",
+    "style-loader": "^1.2.1",
+    "sweetalert2": "^7.18.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-watched-glob-entries-plugin": "^2.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "browser": false,
+      "es6": true,
+      "jquery": true,
+      "node": true
+    },
+    "rules": {
+      "brace-style": [
+        "warn",
+        "allman"
+      ],
+      "indent": [
+        "warn",
+        4
+      ]
+    }
+  }
+}

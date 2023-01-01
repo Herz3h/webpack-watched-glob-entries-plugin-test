@@ -10,15 +10,15 @@
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "babel-loader": "^8.1.0",
-    "exports-loader": "^0.7.0",
+    "exports-loader": "^4.0.0",
     "file-loader": "^6.0.0",
     "path": "^0.12.7",
-    "resolve-url-loader": "^3.1.1",
+    "resolve-url-loader": "^5.0.0",
     "style-loader": "^1.2.1",
     "sweetalert2": "^7.18.0",
     "url-loader": "^4.1.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
